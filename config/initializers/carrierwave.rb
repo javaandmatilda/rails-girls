@@ -7,7 +7,7 @@ config.fog_credentials = {
  region:                'ap-southeast-2',                  # optional, defaults to 'us-east-1'
 
 }
-config.fog_directory  = 'learntohack-carrierwave/gregg'                          # required
+config.fog_directory  = 'learntohack-carrierwave/l'                          # required
 config.fog_public     = false                                        # optional, defaults to true
 config.fog_attributes = { 'Cache-Control' => "max-age=#{365.day.to_i}" } # optional, defaults to {}
 end
